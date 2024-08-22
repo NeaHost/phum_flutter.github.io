@@ -1,0 +1,63 @@
+[
+    {
+        "title": "Member Information",
+        "fields": [
+            {
+                "key":"first_name",
+                "label": "First Name",
+                "fieldType": "TextInput"
+            },    
+            { 
+                "key":"last_name",
+                "label": "Last Name",
+                "fieldType": "TextInput"
+            }, 
+            {
+                "key":"gender",
+                "label": "Gender",
+                "fieldType": "SelectList",
+                "values":[
+                    "Male",
+                    "Female"
+                ]
+            },
+            {
+                "key":"dob",
+                "label": "DOB",
+                "fieldType": "DatetimePicker"
+            }
+        ]
+    },
+    {
+        "title": "Address & Contact",
+        "fields": [
+            {
+                "key":"country",
+                "label": "Country",
+                "fieldType": "SelectList",
+                "values":[
+                    "Cambodia",
+                    "Thailand",
+                    "Vietnam",
+                    "China"
+                ]
+            },
+            {
+                "key":"address",
+                "label": "Address",
+                "fieldType": "TextInput"
+            },
+            {
+                "key":"phone",
+                "label": "Phone",
+                "fieldType": "TextInput"
+            },
+            {
+                "key":"email",
+                "label": "Email",
+                "fieldType": "TextInput"
+            }
+ 
+        ]
+    }
+]
